@@ -27,7 +27,7 @@ for (var i = 0; i < items.length; i++){
 
 // My response
 
-var itensComDesconto = itens.map(item => item.preco > 100 ? {...item, ...{preco: item.preco *0.8}} : item)
+var itensComDesconto = itens.map(item => item.preco > 100 ? {...item, preco: item.preco *0.8}: item)
 
 /* Concepts used
     .map
